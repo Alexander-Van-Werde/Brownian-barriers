@@ -1,6 +1,6 @@
-This repository accompanies the paper "Recovering semipermeable barriers from reflected Brownian motion" by Alexander Van Werde and Jaron Sanders (2024). That paper studied _reflected Brownian motion with semipermeable barriers_ in a planar domain, particularly the recovery of barrier locations based on an observed trajectory.
+This repository accompanies the paper ["Recovering semipermeable barriers from reflected Brownian motion"](https://arxiv.org/abs/2412.14740#) by Alexander Van Werde and Jaron Sanders (2024). That paper studied _reflected Brownian motion with semipermeable barriers_ in a planar domain, particularly the recovery of barrier locations based on an observed trajectory.
 
-The module _brownian\_barriers_ provides recovery and simulation algorithms for reflected Brownian motion with semipermeable barriers in a planar domain. Examples for the usage are given in the Jupyter notebook. 
+The module _brownian\_barriers_ provides recovery and simulation algorithms for reflected Brownian motion with semipermeable barriers in a planar domain. Examples for the usage are given in the attached notebook. 
 
 Main methods 
 -------------
@@ -12,4 +12,4 @@ Main methods
 
 Dependencies
 ------------
-We rely on the Python Optimal Transport library (POT) for computing Wasserstein distances (https://pythonot.github.io/). The following libraries are also used: numpy, scipy, xml, svg, and typing.  
+We rely on the [Python Optimal Transport library](https://pythonot.github.io/) for computing Wasserstein distances. The following libraries are also used: numpy, scipy, xml, svg, and typing.  
